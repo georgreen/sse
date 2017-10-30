@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Channel	../flask_sse.py	/^class Channel:$/;"	kind:class	line:6
+END_STREAM	../flask_sse.py	/^END_STREAM = "SPECIAL_SIGNAL_STOP"$/;"	kind:variable	line:3
+Flask	../app.py	/^from flask import Flask$/;"	kind:namespace	line:1
+Queue	../flask_sse.py	/^from gevent.queue import Queue$/;"	kind:namespace	line:1
+Sse	../flask_sse.py	/^class Sse():$/;"	kind:class	line:44
+Subscriber	../app.py	/^from flask_sse import sse, Subscriber$/;"	kind:namespace	line:3
+Subscriber	../flask_sse.py	/^class Subscriber:$/;"	kind:class	line:36
+__init__	../flask_sse.py	/^    def __init__(self):$/;"	kind:member	line:37
+__init__	../flask_sse.py	/^    def __init__(self):$/;"	kind:member	line:45
+__init__	../flask_sse.py	/^    def __init__(self, name):$/;"	kind:member	line:7
+add_channel	../flask_sse.py	/^    def add_channel(self, channel_name):$/;"	kind:member	line:49
+app	../app.py	/^app = Flask(__name__)$/;"	kind:variable	line:5
+app.py	../app.py	1;"	kind:file	line:1
+close	../flask_sse.py	/^    def close(self):$/;"	kind:member	line:22
+disconnect	../flask_sse.py	/^    def disconnect(self):$/;"	kind:member	line:40
+flask	../app.py	/^import flask$/;"	kind:namespace	line:2
+flask_sse.py	../flask_sse.py	1;"	kind:file	line:1
+formart_message	../flask_sse.py	/^    def formart_message(data, event_type):$/;"	kind:member	line:27
+json	../flask_sse.py	/^import json$/;"	kind:namespace	line:2
+publish	../app.py	/^def publish():$/;"	kind:function	line:16
+publish	../flask_sse.py	/^    def publish(self, message, event_type='default'):$/;"	kind:member	line:11
+sse	../app.py	/^from flask_sse import sse, Subscriber$/;"	kind:namespace	line:3
+sse	../flask_sse.py	/^sse = Sse()$/;"	kind:variable	line:61
+stream	../flask_sse.py	/^    def stream(self, subscriber):$/;"	kind:member	line:53
+subscribe	../app.py	/^def subscribe():$/;"	kind:function	line:8
+subscribe	../flask_sse.py	/^    def subscribe(self, subscriber):$/;"	kind:member	line:16
+unsubscribe	../flask_sse.py	/^    def unsubscribe(self, subscriber):$/;"	kind:member	line:19
